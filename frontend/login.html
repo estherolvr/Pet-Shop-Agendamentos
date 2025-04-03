@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - PetVip</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho-principal">
+        <div class="logo">
+            <div class="logo-icone">
+                <i class="fas fa-paw"></i>
+            </div>
+            <div class="logo-texto">
+                
+               Bubble Pets
+                <span class="logo-subtexto">Spa & Estética</span>
+            </div>
+        </div>
+        
+        <nav class="navegacao-abas">
+            <a href="index.html" class="aba-navegacao">
+                <i class="fas fa-home"></i> Início
+            </a>
+            <a href="#" class="aba-navegacao">
+                <i class="fas fa-calendar-alt"></i> Agendamentos
+            </a>
+            <a href="login.html" class="aba-navegacao ativa">
+                <i class="fas fa-user"></i> Entrar
+            </a>
+        </nav>
+    </header>
+    
+    <!-- Conteúdo Principal -->
+    <main class="conteudo-principal">
+        <div class="cartao-login">
+            <h1 class="titulo-hero">Bem-vindo de volta!</h1>
+            <p class="subtitulo-hero">Faça login para acessar sua conta</p>
+            
+            <form class="formulario-login">
+                <div class="grupo-formulario">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seu@email.com" required>
+                    <i class="fas fa-envelope icone-input"></i>
+                </div>
+                
+                <div class="grupo-formulario">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    <i class="fas fa-lock icone-input"></i>
+                </div>
+                
+                <div class="lembrar-esqueceu">
+                    <label class="checkbox-container">
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                        Lembrar de mim
+                    </label>
+                    <a href="#" class="link-rapido">Esqueceu a senha?</a>
+                </div>
+                
+                <button type="submit" class="botao botao-primario botao-grande">
+                    <i class="fas fa-sign-in-alt"></i> Entrar
+                </button>
+                
+                <div class="divisor">ou</div>
+                
+                <div class="login-social">
+                    <button type="button" class="botao botao-social">
+                        <i class="fab fa-google"></i> 
+                    </button>
+                    <button type="button" class="botao botao-social">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                   
+                </div>
+        
+                <div class="rodape-formulario">
+                    Não tem uma conta? <a href="cadastro.html" class="link-rapido">Cadastre-se</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer class="rodape-principal">
+        © 2023 PetVip - Todos os direitos reservados
+    </footer>
+</body>
+</html>
