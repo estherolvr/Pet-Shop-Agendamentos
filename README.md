@@ -4,7 +4,7 @@
   <img src="https://i.imgur.com/JnQy8Q2.png" alt="Bubble Pets Logo" width="300">
 </p>
 
-**Sistema completo de agendamentos para pet shop com autenticação segura e gerenciamento de pets**
+**Este é um sistema completo de agendamentos desenvolvido para pet shops, permitindo aos clientes agendarem serviços como banhos, tosas e outras atividades para seus pets. O sistema possui autenticação segura e gerenciamento detalhado dos animais, facilitando a administração do pet shop e a experiência do usuário.**
 
 ---
 
