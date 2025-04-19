@@ -12,16 +12,6 @@ Além disso, o sistema conta com autenticação segura, garantindo a proteção 
 
 ---
 
-## 📌 Índice
-- [Funcionalidades](#✨-funcionalidades)
-- [Tecnologias](#💻-tecnologias-utilizadas)
-- [Pré-requisitos](#📋-pré-requisitos)
-- [Instalação](#⚙️-instalação)
-- [Estrutura do Projeto](#📂-estrutura-do-projeto)
-- [Rotas da API](#🔗-rotas-da-api)
-- [Autores](#👥-autores)
-- [Licença](#📜-licença)
-
 ---
 
 ## ✨ Funcionalidades
