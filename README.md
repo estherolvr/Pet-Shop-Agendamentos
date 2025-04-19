@@ -1,7 +1,7 @@
 # Bubble Pets 🐾 - Pet Shop Online
 
 <p align="center">
-  <img src="https://i.imgur.com/JnQy8Q2.png" alt="Bubble Pets Logo" width="300">
+  <img src="https://drive.google.com/uc?id=1hgLv3BHTHz87-eRvPS6I2LB-x92V_s0q" alt="Bubble Pets Logo" width="300">
 </p>
 
 **Bubble Pets é uma plataforma online inovadora que simplifica o agendamento de serviços para pets, permitindo aos donos agendarem banhos, tosas e outros cuidados para seus animais de forma rápida e prática. Desenvolvido para pet shops, o sistema oferece uma experiência fácil e intuitiva tanto para os donos de pets quanto para os administradores do estabelecimento.
