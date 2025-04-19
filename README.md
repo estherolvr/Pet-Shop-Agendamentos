@@ -4,7 +4,11 @@
   <img src="https://i.imgur.com/JnQy8Q2.png" alt="Bubble Pets Logo" width="300">
 </p>
 
-**Este é um sistema completo de agendamentos desenvolvido para pet shops, permitindo aos clientes agendarem serviços como banhos, tosas e outras atividades para seus pets. O sistema possui autenticação segura e gerenciamento detalhado dos animais, facilitando a administração do pet shop e a experiência do usuário.**
+**Bubble Pets é uma plataforma online inovadora que simplifica o agendamento de serviços para pets, permitindo aos donos agendarem banhos, tosas e outros cuidados para seus animais de forma rápida e prática. Desenvolvido para pet shops, o sistema oferece uma experiência fácil e intuitiva tanto para os donos de pets quanto para os administradores do estabelecimento.
+
+Com Bubble Pets, os clientes podem agendar serviços para seus pets sem complicação, escolhendo o horário que melhor se adequa à sua rotina. A plataforma oferece uma interface limpa e amigável, garantindo que qualquer pessoa consiga agendar de maneira simples e sem necessidade de processos complexos.
+
+Além disso, o sistema conta com autenticação segura, garantindo a proteção dos dados dos usuários e dos pets, e oferece aos administradores uma maneira eficaz de gerenciar agendamentos, organizar informações dos pets e otimizar a rotina do pet shop, tudo em um único local.**
 
 ---
 
