@@ -1,7 +1,9 @@
 # Bubble Pets 🐾 - Pet Shop Online
 
 ## 🎥 Demonstração do Projeto
-[![Clique para assistir](caminho/para/imagem-capa.png)](https://drive.google.com/uc?export=preview&id=14jkXK1FbB7KifpxD8u6wJHZ2dNBQQGQM)
+
+[![Assista o vídeo](thumbnail.png)](https://drive.google.com/uc?export=preview&id=14jkXK1FbB7KifpxD8u6wJHZ2dNBQQGQM)
+
 
 
 <p align="center">
