@@ -2,8 +2,7 @@
 
 ## 🎥 Demonstração do Projeto
 
-[![Assista o vídeo](thumbnail.png)](https://drive.google.com/uc?export=preview&id=14jkXK1FbB7KifpxD8u6wJHZ2dNBQQGQM)
-
+[![Assista ao vídeo](https://img.youtube.com/vi/BK4tgWbyqqw/0.jpg)](https://youtu.be/BK4tgWbyqqw)
 
 
 <p align="center">
