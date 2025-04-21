@@ -1,7 +1,7 @@
 # Bubble Pets 🐾 - Pet Shop Online
 
 ## 🎥 Demonstração do Projeto
-[![Clique para ver o projeto funcionando](https://img.shields.io/badge/Clique%20para%20ver%20o%20projeto%20funcionando-red?style=for-the-badge&logo=youtube)](https://youtu.be/BK4tgWbyqqw)
+[![Clique Aqui para ver o projeto funcionando](https://img.shields.io/badge/Clique%20para%20ver%20o%20projeto%20funcionando-red?style=for-the-badge&logo=youtube)](https://youtu.be/BK4tgWbyqqw)
 
 👉 Este vídeo está hospedado no **YouTube**
 
