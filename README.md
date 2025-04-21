@@ -11,7 +11,7 @@
   <img src="https://drive.google.com/uc?id=1hgLv3BHTHz87-eRvPS6I2LB-x92V_s0q" alt="Bubble Pets Logo" width="1050">
    <img src="https://drive.google.com/uc?export=preview&id=16JQkTElwjv352F_Op7F1Qb5SsjPsvYez" alt="Bubble Pets Logo" width="1050">
    <img src="https://drive.google.com/uc?export=preview&id=1bk5HJkMlJeWUkkF1m5kfsJHdd3MeJrSP" alt="Bubble Pets Logo" width="1050">
-    <img src=" https://drive.google.com/uc?export=preview&id=16JQkTElwjv352F_Op7F1Qb5SsjPsvYez" alt="Bubble Pets Logo" width="1050">
+   
 </p>
 
 **Bubble Pets é uma plataforma online inovadora que simplifica o agendamento de serviços para pets, permitindo aos donos agendarem banhos, tosas e outros cuidados para seus animais de forma rápida e prática. Desenvolvido para pet shops, o sistema oferece uma experiência fácil e intuitiva tanto para os donos de pets quanto para os administradores do estabelecimento.
