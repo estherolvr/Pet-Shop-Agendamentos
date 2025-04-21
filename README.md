@@ -1,8 +1,10 @@
 # Bubble Pets 🐾 - Pet Shop Online
 
 ## 🎥 Demonstração do Projeto
+[![Clique para assistir no YouTube](https://img.youtube.com/vi/BK4tgWbyqqw/0.jpg)](https://youtu.be/BK4tgWbyqqw)
 
-[![Assista ao vídeo](https://img.youtube.com/vi/BK4tgWbyqqw/0.jpg)](https://youtu.be/BK4tgWbyqqw)
+👉 Este vídeo está hospedado no **YouTube**, clique na imagem acima para assistir.
+
 
 
 <p align="center">
