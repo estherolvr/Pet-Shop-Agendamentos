@@ -89,5 +89,13 @@ npm install
 # Configure o arquivo .env (copie o exemplo)
 cp .env.example .env
 
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_DATABASE=banco_petshop
+PORT=3000
+JWT_SECRET=sua_chave_super_secreta  
+
+
 # Inicie o servidor
 npm start
