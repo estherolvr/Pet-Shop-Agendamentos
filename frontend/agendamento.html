@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Pets - Agendamentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho Principal -->
+    <header class="cabecalho-principal">
+        <a href="#" class="logo">
+            <div class="logo-icone">
+                <i class="fas fa-paw"></i>
+            </div>
+            <div class="logo-texto">
+                Bubble Pets
+                <span class="logo-subtexto">Spa & Estética</span>
+            </div>
+        </a>
+        
+        <nav class="navegacao-abas">
+            <a href="index.html" class="aba-navegacao">
+                <i class="fas fa-home"></i> Início
+            </a>
+            <a href="#" class="aba-navegacao ativa">
+                <i class="fas fa-calendar-alt"></i> Agendamentos
+            </a>
+            <button id="botaoSair">Sair</button>
+
+
+        </nav>
+        
+    </header>
+   
+    <div class="container-dashboard">
+        <!-- Barra Lateral -->
+        <aside class="barra-lateral">
+            <div class="perfil-usuario">
+                <div class="avatar-usuario">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <!-- Dados do usuário com IDs -->
+                <h2 class="nome-usuario" id="nomeUsuario">Carregando...</h2>
+                <div class="email-usuario" id="emailUsuario">carregando@email.com</div>
+
+                
+            </div>
+
+      
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <main class="conteudo-principal">
+            <!-- Seção de Agendamentos -->
+            <section class="secao-agendamentos">
+                <div class="cabecalho-secao">
+                    <h2 class="titulo-secao">Meus Agendamentos</h2>
+                </div>
+
+                <table class="tabela-agendamentos">
+                    <thead>
+                        <tr>
+             
+                            <th>Pet</th>
+                            <th>Data</th>
+                            <th>Horário</th>
+                            <th>Status</th>
+                            <th style="width: 120px;">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- As linhas serão preenchidas pelo JavaScript -->
+                    </tbody>
+                </table>
+            </section>
+
+  <!-- Formulário de Agendamento -->
+<section class="secao-agendamentos">
+    <div class="cabecalho-secao">
+        <h2 class="titulo-secao">Novo Agendamento</h2>
+    </div>
+    <form id="formAgendamento" class="formulario-agendamento" enctype="multipart/form-data">
+        <div class="linha-formulario">
+            <div class="grupo-formulario">
+                <label for="nomePet">Nome do Pet</label>
+                <input type="text" id="nomePet" name="nome_pet" placeholder="Ex: Thor" required>
+            </div>
+            <div class="grupo-formulario">
+                <label for="racaPet">Raça</label>
+                <input type="text" id="racaPet" name="raca_pet" placeholder="Ex: Golden Retriever" required>
+            </div>
+        </div>
+
+        <div class="linha-formulario">
+            <div class="grupo-formulario">
+                <label for="dataInput">Data</label>
+                <input type="date" id="dataInput" name="data" required
+                       min="2023-01-01" max="2025-12-31"
+                       onchange="validarData(this.value)">
+                <div id="dataError" class="error-message"></div>
+            </div>
+            <div class="grupo-formulario">
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" name="horario" min="09:00" max="17:00" step="900" required>
+                <div id="horaError" class="error-message"></div>
+            </div>
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="servico">Serviço</label>
+            <select id="servico" name="servico" required>
+                <option value="" disabled selected>Selecione um serviço</option>
+                <option value="banho">Banho Completo - R$ 50,00</option>
+                <option value="tosa">Tosa Higiênica - R$ 70,00</option>
+                <option value="banho_tosa">Banho + Tosa - R$ 100,00</option>
+                <option value="banho_medicinal">Banho Medicinal - R$ 65,00</option>
+            </select>
+        </div>
+
+        <div class="grupo-formulario">
+            <label>Foto do Pet</label>
+            <div class="container-upload">
+                <!-- Campo para upload da imagem -->
+        
+                <input type="file" id="fotoPet" name="foto_pet" accept="image/*" style="display: none;" onchange="previewImagem(this)">
+                <label for="fotoPet" class="area-upload">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Clique para adicionar uma foto do seu pet</p>
+                    <span>Formatos: JPG, PNG (Máx. 5MB)</span>
+                </label>
+        
+                <!-- Exibição da imagem selecionada -->
+                <div id="previewImagem" class="preview-imagem" style="display: none;">
+                    <img id="imgPreview" src="#" alt="Pré-visualização da foto" />
+                    <button type="button" class="botao-remover-imagem" onclick="removerImagem()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+        
+        
+                <!-- Exibição da imagem atual ao editar -->
+                <div id="imagemAtual" style="display: none; margin-top: 10px;">
+                    <p>Foto atual do pet:</p>
+                    <img id="fotoAtual" src="" alt="Foto atual do pet" style="max-width: 150px; border-radius: 8px;" />
+                </div>
+        
+                <!-- Campo oculto para enviar a imagem atual (caso não envie nova) -->
+                <input type="hidden" name="foto_antiga" id="fotoAntiga">
+        
+                <div id="fotoError" class="error-message"></div>
+            </div>
+        </div>
+        <div class="grupo-formulario">
+            <label for="observacoes">Observações</label>
+            <textarea id="observacoes" name="observacoes" rows="4" 
+                      placeholder="Alguma informação importante sobre seu pet?"></textarea>
+        </div>
+
+        <div class="acoes-formulario">
+            <button type="button" id="btn-cancelar-edicao" class="botao botao-secundario" style="display: none;"
+                    onclick="cancelarEdicao()">
+                <i class="fas fa-times"></i> Cancelar Edição
+            </button>
+            <button type="submit" class="botao botao-primario" id="btn-submit">
+                <i class="fas fa-calendar-check"></i> Agendar
+            </button>
+        </div>
+    </form>
+</section>
+
+        </main>
+    </div>
+
+
+ 
+    <script src="js/agendamento.js" defer></script>
+    <script src="js/dashboard.js" defer></script>
+
+</body>
+</html>
