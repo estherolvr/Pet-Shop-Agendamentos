@@ -22,9 +22,9 @@ CREATE TABLE pets (
 );
 CREATE TABLE agendamentos (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    usuario_id INT NOT NULL,  -- Referência ao usuário que fez o agendamento
-    nome_pet VARCHAR(100),    -- Nome do pet (não precisa ser na tabela, mas se necessário)
-    raca_pet VARCHAR(100),    -- Raça do pet (não precisa ser na tabela, mas se necessário)
+    usuario_id INT NOT NULL, 
+    nome_pet VARCHAR(100),   
+    raca_pet VARCHAR(100),    
     servico VARCHAR(100),
     observacoes TEXT,
     foto_pet VARCHAR(255),
