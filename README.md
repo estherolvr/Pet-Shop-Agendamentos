@@ -9,7 +9,8 @@
 
 <p align="center">
   <img src="https://drive.google.com/uc?id=1hgLv3BHTHz87-eRvPS6I2LB-x92V_s0q" alt="Bubble Pets Logo" width="1050">
-   <img src="https://drive.google.com/uc?export=preview&id=16JQkTElwjv352F_Op7F1Qb5SsjPsvYez" alt="Bubble Pets Logo" width="1050">
+    <img src="https://drive.google.com/uc?export=preview&id=16JQkTElwjv352F_Op7F1Qb5SsjPsvYez" alt="Bubble Pets Logo" width="1050">
+   <img src="https://drive.google.com/uc?export=preview&id=1bk5HJkMlJeWUkkF1m5kfsJHdd3MeJrSP" alt="Bubble Pets Logo" width="1050">
    <img src="https://drive.google.com/uc?export=preview&id=1bk5HJkMlJeWUkkF1m5kfsJHdd3MeJrSP" alt="Bubble Pets Logo" width="1050">
    
 </p>
